@@ -41,7 +41,7 @@ const Bookingform = () => {
                     validationSchema={Schema}
                     onSubmit={
                         async (values) => {
-                            await axios.post("/car/postCarBooking", values)
+                            await axios.post(`${process.env.REACT_APP_BACKEND_URL}/car/postCarBooking`, values)
                                 .then(response => {
                                     console.log(response.data)
                                     alert(response.data)

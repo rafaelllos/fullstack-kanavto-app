@@ -12,7 +12,7 @@ app.use(
     })
 )
 app.use(cors({
-    origin: ['https://fullstack-airport.netlify.app', 'http://localhost:5000']
+    origin: ['https://celebrated-kheer-164935.netlify.app', 'http://localhost:3000'] // или http://localhost:5000?
 }))
 app.use('/car', carRouter)
 

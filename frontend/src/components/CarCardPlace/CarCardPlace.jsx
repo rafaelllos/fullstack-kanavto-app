@@ -7,7 +7,7 @@ const CarCardPlace = () => {
     const [carData, setCarData] = useState()
 
     useEffect(() => {
-        axios.get("/car/getCars")
+        axios.get(`${process.env.REACT_APP_BACKEND_URL}/car/getCars`)
             .then(response => {
                 console.log(response.data)
                 setCarData(response.data)
