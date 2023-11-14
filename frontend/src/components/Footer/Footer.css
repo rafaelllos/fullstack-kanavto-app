@@ -1,0 +1,22 @@
+.footer {
+  padding: 30px 0 30px 0;
+  background-color: #fff;
+  margin-top: auto;
+}
+.footer > .footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 40px;
+}
+.footer > .footer__container > .footer__item {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(144, 144, 144);
+}
+.footer > .footer__container > .footer__item.footer__item-left {
+  width: 50%;
+}
+
+/*# sourceMappingURL=Footer.css.map */
