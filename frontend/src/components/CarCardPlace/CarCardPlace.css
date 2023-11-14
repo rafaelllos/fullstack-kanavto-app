@@ -1,0 +1,11 @@
+.car-card-place {
+  margin-bottom: 60px;
+}
+.car-card-place > .car-card-place__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=CarCardPlace.css.map */
